@@ -1,0 +1,19 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "myblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "xml/{name}",
+      "connection": "pipelinestoragexml_STORAGE"
+    },
+    {
+      "type": "eventHub",
+      "direction": "out",
+      "name": "$return",
+      "connection": "xmlpipeplineEH_xmlpipeline_EVENTHUB",
+      "eventHubName": "xmlreceiver"
+    }
+  ]
+}

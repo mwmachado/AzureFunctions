@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "pipelinestoragexml_STORAGE": "DefaultEndpointsProtocol=https;AccountName=pipelinestoragexml;AccountKey=GztdN7t17ockhhUD6TQ84M52ry2Ttfdt8uDcwS6kqPGYxr+ls1oq5YPg1Zl3uYT54/Q+GtQbLEMH7N/Z2hWAyA==;EndpointSuffix=core.windows.net",
+    "xmlpipeplineEH_xmlpipeline_EVENTHUB": "Endpoint=sb://xmlpipeplineeh.servicebus.windows.net/;SharedAccessKeyName=xmlpipeline;SharedAccessKey=KLoTwLMTCKYDWz8REUGk1EjMBhZ2E9jTC26ie4sTU5I=;EntityPath=xmlreceiver"
+  }
+}
